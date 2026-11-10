@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reinoso Felipe · Diseñador UX/UI · Portfolio</title>
+<meta name="description" content="Portfolio de <Reinoso Felipe, estudiante de Sistemas de Información que diseña interfaces claras y accesibles. Casos de estudio UX/UI.">
+<meta property="og:title" content="Reinoso Felipe · Diseñadora UX/UI">
+<meta property="og:description" content="Casos de estudio, proceso y herramientas de una diseñadora UX/UI en formación.">
+<meta property="og:image" content="https://github.com/felipelihuelreinoso">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#12332f">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="Reinoso Felipe, inicio">TN</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav id="nav" aria-label="Principal">
+      <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#experience">Trayectoria</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="https://github.com/felipelihuelreinoso" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a class="btn btn-accent" href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero wrap" id="top">
+  <p class="badge"><span aria-hidden="true" class="dot"></span>Disponible para pasantías · Argentina (GMT-3)</p>
+  <h1>Reinoso Felipe</h1>
+  <p class="role">Diseñador UX/UI</p>
+  <p class="lead">Convierto procesos confusos en pantallas que se entienden a la primera, probadas con personas reales.</p>
+  <div class="actions">
+    <a class="btn btn-primary" href="#projects">Ver trabajos</a>
+    <a class="btn btn-ghost" href="#contact">Contactame</a>
+  </div>
+</section>
+
+<section class="wrap" id="metrics" aria-labelledby="t-metrics">
+  <h2 class="sr" id="t-metrics">En números</h2>
+  <ul class="metrics">
+    <li><strong>3</strong> años de carrera</li>
+    <li><strong>4</strong> casos de estudio</li>
+    <li><strong>6</strong> herramientas de diseño</li>
+    <li><strong>5</strong> cursos completados</li>
+  </ul>
+</section>
+
+<section class="wrap" id="skills" aria-labelledby="t-skills">
+  <h2 id="t-skills">Skills</h2>
+  <div class="grid3">
+    <article class="card">
+      <h3>Diseño UX</h3>
+      <p>Investigo, ordeno la información y valido con usuarios.</p>
+      <ul class="tags"><li>Entrevistas</li><li>Card sorting</li><li>Test de usabilidad</li><li>Wireframes</li></ul>
+    </article>
+    <article class="card">
+      <h3>Diseño UI</h3>
+      <p>Sistemas visuales coherentes, con contraste y jerarquía.</p>
+      <ul class="tags"><li>Figma</li><li>Design system</li><li>Tipografía</li><li>Prototipado</li></ul>
+    </article>
+    <article class="card">
+      <h3>Front-end</h3>
+      <p>Maqueto lo que diseño, fiel al prototipo y accesible.</p>
+      <ul class="tags"><li>HTML5</li><li>CSS3</li><li>Tailwind</li><li>Git</li></ul>
+    </article>
+  </div>
+</section>
+
+<section class="wrap" id="projects" aria-labelledby="t-projects">
+  <h2 id="t-projects">Proyectos</h2>
+  <div class="grid3">
+    <article class="card project">
+      <img src="assets/p1.svg" alt="Mockup de la app de turnos médicos en un celular" width="400" height="240" loading="lazy">
+      <h3><button class="case-open" data-dialog="case1">App de turnos médicos</button></h3>
+      <p class="meta">2026 · Caso de estudio completo</p>
+      <p>Rediseño del flujo para pedir un turno desde el celular.</p>
+      <p><strong>Resultado:</strong> el flujo pasó de 7 a 4 pasos en el test.</p>
+      <ul class="tags"><li>Figma</li><li>Maze</li></ul>
+    </article>
+    <article class="card project">
+      <img src="assets/p2.svg" alt="Mockup de una tienda online de plantas" width="400" height="240" loading="lazy">
+      <h3><a class="stretch" href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">Tienda de plantas</a></h3>
+      <p class="meta">2025 · Figma</p>
+      <p>Catálogo y checkout para un vivero local.</p>
+      <p><strong>Aprendizaje:</strong> filtrar menos categorías mejora la búsqueda.</p>
+      <ul class="tags"><li>Figma</li><li>Tailwind</li></ul>
+    </article>
+    <article class="card project">
+      <img src="assets/p3.svg" alt="Mockup de un panel de gastos personales" width="400" height="240" loading="lazy">
+      <h3><a class="stretch" href="https://github.com/felipelihuelreinoso" target="_blank" rel="noopener noreferrer">Panel de gastos</a></h3>
+      <p class="meta">2025 · Demo y repo</p>
+      <p>Dashboard simple para entender en qué se va el dinero.</p>
+      <p><strong>Aprendizaje:</strong> menos gráficos, más lectura rápida.</p>
+      <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+    </article>
+  </div>
+</section>
+
+<section class="wrap" id="experience" aria-labelledby="t-exp">
+  <h2 id="t-exp">Trayectoria</h2>
+  <ol class="timeline">
+    <li><p class="when">2024 – hoy</p><h3>Estudiante, Lic. en Sistemas de Información</h3><p class="org">FCyT, Sede Concepción del Uruguay</p>
+      <ul><li>Promedio sobresaliente en Diseño UX-UI.</li><li>Cuatro trabajos prácticos presentados como casos de estudio.</li></ul></li>
+    <li><p class="when">2025</p><h3>Curso de Diseño de Interfaces</h3><p class="org">Plataforma online</p>
+      <ul><li>Construí un design system en Figma.</li><li>Obtuve certificación final.</li></ul></li>
+    <li><p class="when">2024</p><h3>Voluntaria en diseño</h3><p class="org">ONG local</p>
+      <ul><li>Renové el folleto de actividades.</li><li>Aumentó la cantidad de inscriptos.</li></ul></li>
+  </ol>
+</section>
+
+<section class="wrap" id="about" aria-labelledby="t-about">
+  <h2 id="t-about">Sobre mí</h2>
+  <div class="about">
+    <figure><img src="assets/retrato.svg" alt="Ilustración de Reinoso Felipe" width="280" height="320" loading="lazy"></figure>
+    <div>
+      <p>Soy estudiante de Sistemas de Información y diseño interfaces desde primer año. Me interesa que la tecnología sea fácil de usar para cualquiera, sin manual.</p>
+      <div class="grid3 mini">
+        <article class="card"><h3>Probar antes de decidir</h3><p>Una opinión se confirma con usuarios.</p></article>
+        <article class="card"><h3>Accesible por defecto</h3><p>Contraste y teclado desde el primer boceto.</p></article>
+        <article class="card"><h3>Simple es mejor</h3><p>Cada elemento tiene un solo trabajo.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="contact" aria-labelledby="t-contact">
+  <div class="contact">
+    <h2 id="t-contact">¿Tenés un proyecto o una pasantía?</h2>
+    <p>Escribime y te respondo en menos de 48 horas.</p>
+    <a class="btn btn-accent" href="felipelihuelreinoso@gmail.com">felipelihuelreinoso@gmail.com</a>
+    <p class="links"><a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.behance.net/felipereinoso2" target="_blank" rel="noopener noreferrer">Behance</a>
+      <a href="https://github.com/felipelihuelreinoso" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+  </div>
+</section>
+</main>
+
+<dialog id="case1" aria-labelledby="c1t">
+  <button class="close" aria-label="Cerrar caso de estudio">Cerrar</button>
+  <h2 id="c1t">App de turnos médicos</h2>
+  <h3>Problema</h3><p>Sacar un turno requería 7 pasos y 3 de cada 5 usuarios abandonaban.</p>
+  <h3>Proceso</h3><p>Entrevisté a 5 pacientes, hice card sorting de los datos pedidos y prototipé tres flujos.</p>
+  <h3>Solución</h3><p>Un flujo de 4 pasos, con la especialidad primero y confirmación visible.</p>
+  <h3>Resultado</h3><p>En el test con 3 personas, todas completaron el turno sin ayuda.</p>
+</dialog>
+
+<footer>
+  <div class="wrap foot">
+    <p>© 2026 Tu Reinoso Felipe. Hecho con HTML y CSS.</p>
+    <nav aria-label="Pie de página"><ul>
+      <li><a href="#skills">Skills</a></li><li><a href="#projects">Proyectos</a></li><li><a href="#experience">Trayectoria</a></li><li><a href="#about">Sobre mí</a></li><li><a href="#contact">Contacto</a></li>
+      <li><a href="https://github.com/felipelihuelreinoso" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    </ul></nav>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
