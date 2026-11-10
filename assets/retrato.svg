@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640" role="img" aria-labelledby="title">
+  <title id="title">Retrato ilustrado de Reinoso Felipe</title>
+  <rect width="560" height="640" rx="28" fill="#dce7e3"/>
+  <circle cx="280" cy="226" r="112" fill="#e5b78e"/>
+  <path d="M173 214c8-94 47-142 114-142 72 0 113 60 106 159-36-21-62-61-69-107-22 49-77 83-151 90z" fill="#12332f"/>
+  <circle cx="240" cy="228" r="8" fill="#12332f"/>
+  <circle cx="320" cy="228" r="8" fill="#12332f"/>
+  <path d="M247 282c22 18 45 18 67 0" fill="none" stroke="#12332f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M105 594c9-147 70-222 175-222s166 75 175 222" fill="#12332f"/>
+  <path d="M226 377l54 83 54-83" fill="#f2b632"/>
+</svg>

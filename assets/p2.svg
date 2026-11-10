@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title">
+  <title id="title">Tienda online de plantas</title>
+  <rect width="800" height="480" fill="#e8f0df"/>
+  <rect x="72" y="52" width="656" height="376" rx="22" fill="#fff"/>
+  <rect x="104" y="84" width="120" height="20" rx="10" fill="#12332f"/>
+  <rect x="104" y="140" width="176" height="228" rx="16" fill="#dce7e3"/>
+  <rect x="312" y="140" width="176" height="228" rx="16" fill="#eef3f1"/>
+  <rect x="520" y="140" width="176" height="228" rx="16" fill="#dce7e3"/>
+  <path d="M192 301c-57-56-38-122 0-125 38 3 57 69 0 125zm208 0c-57-56-38-122 0-125 38 3 57 69 0 125zm208 0c-57-56-38-122 0-125 38 3 57 69 0 125z" fill="#2f7253"/>
+  <path d="M192 244v83m208-83v83m208-83v83" stroke="#12332f" stroke-width="8"/>
+</svg>

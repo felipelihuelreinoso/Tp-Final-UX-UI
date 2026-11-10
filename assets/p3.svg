@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title">
+  <title id="title">Panel de gastos personales</title>
+  <rect width="800" height="480" fill="#12332f"/>
+  <rect x="58" y="48" width="684" height="384" rx="22" fill="#fff"/>
+  <rect x="90" y="82" width="140" height="20" rx="10" fill="#12332f"/>
+  <rect x="90" y="135" width="188" height="102" rx="14" fill="#eef3f1"/>
+  <rect x="300" y="135" width="188" height="102" rx="14" fill="#eef3f1"/>
+  <rect x="510" y="135" width="200" height="102" rx="14" fill="#f2b632"/>
+  <path d="M110 366l92-61 82 31 95-108 92 60 99-82 120 75" fill="none" stroke="#2f7253" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
